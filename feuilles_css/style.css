@@ -1,3 +1,49 @@
-body{
+*{
+    box-sizing: border-box;
+    }
+    
+    html, body{margin:0;}
 
+body{
+    background-color: #BAD9DB;
+}
+
+/*header*/
+
+header{
+    background-color: #717778;
+    width: 100vw;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #4AB8C2;
+}
+
+.case{
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Section*/
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
 }
