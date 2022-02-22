@@ -60,9 +60,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-
-
 
 /*Section*/
 section{
@@ -79,9 +78,10 @@ h2{
     justify-content: center;
 }
 
+/*animation page d'accueil*/
 .dispo_animation{
     border: 2px solid black;
-    width: 100%;
+    width: 50%;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -89,21 +89,21 @@ h2{
 }
 
 .anim{
-    width:50%;
-    height:50%;
+    width:100%;
+    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
 .element{
-    width:10vw;
-    height:10vw;
+    width:25vw;
+    height:25vw;
     background-color:pink;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: betty 5s 3 ease-out forwards;
+    animation: betty 5s ease-out forwards;
   }
   
   @keyframes betty{
@@ -125,7 +125,7 @@ h2{
     
     60%{
       background-color: green;
-      transform: scale(10);
+      transform: scale(5);
     }
     
     80%{
@@ -137,26 +137,38 @@ h2{
     }
   }
 
-  .bouton{
-    border:2px solid black;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    color:white;
-    margin: 10px;
+button{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: Verdana;
+    padding: 10px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    box-shadow: 0 5px #999;
+}
+  
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
   }
 
-
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} 
 
 /*Présentation de moi et ma passion*/
 .dispo_presentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-}
+    align-items: center; 
+} 
 
 .texte_presentation{
     border: 2px solid black;
@@ -175,8 +187,21 @@ h2{
     align-items: center; 
     flex-wrap:wrap;  
     width:100%;
-    height:100vh; 
+    height:100%; 
 }
+.photo{
+    display: flex;
+    justify-content: center;
+    height: 33%;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+img{
+    height: 50%;
+    display: inline;
+}
+
 
 /*Test dispo 1*/
 .un{
@@ -221,75 +246,14 @@ h2{
     flex-basis:50%;
 }
 
-img{
-    height: 100%;
-    display: inline;
-}
 
-.photo{
-    display: flex;
-    justify-content: center;
-    height: 33%;
-}
-
-/*test disposition 2*/
-/*.un_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:25%;
-}   
-
-.deux_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:25%;
-    height: 33%;
-}
-
-.trois_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:25%;
-    height: 33%;
-}
-
-.quatre_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:25%;
-    height: 33%;
-}
-
-.cinq_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:33%;
-    height: 33%;
-}
-
-.six_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:34%;
-    height: 33%;
-}
-
-.sept_{
-    box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:33%;
-    height: 33%;
-}
-*/
 
 /*Footer*/
-
 footer{
-    background-color: #717778;
+    background-color: rgb(80, 218, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 75px;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
