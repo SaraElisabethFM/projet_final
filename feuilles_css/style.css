@@ -202,7 +202,7 @@ button{
   }
 
 .button:active {
-    background-color: #3e8e41;
+    background-color: #006769;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 } 
@@ -300,21 +300,21 @@ footer{
     bottom: 0;*/
 }
 
-.Acc{
-    /*background-color: deeppink;
+/*.Acc{
+    background-color: deeppink;
     position: absolute;
-    bottom: 0;*/
+    bottom: 0;
 }
 
 .Gal{
-    /*background-color: orange;*/
+    background-color: orange;
 }
 
 .Pres{
-    /*background-color: rebeccapurple;
+    background-color: rebeccapurple;
     position: absolute;
-    bottom: 0;*/
-}
+    bottom: 0;
+}*/
 /*Fin Footer*/
 
 
