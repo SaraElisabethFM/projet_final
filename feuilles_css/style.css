@@ -237,7 +237,7 @@ button{
     justify-content: center;
     align-items: center; 
     flex-wrap:wrap;  
-    width:90%;
+    width:100%;
     height: 33%;
 }
 .photo{
@@ -246,7 +246,7 @@ button{
     height: 33%;
     box-sizing: border-box;
     border: 2px solid black;
-    /*margin: 5px;*/
+    margin: 1px;
 }
 
 img{
@@ -264,7 +264,7 @@ img{
 .deux{
     box-sizing: border-box;
     border: 2px solid black;
-    flex-basis:34%;
+    flex-basis:33%;
 }
 
 .trois{
@@ -288,13 +288,13 @@ img{
 .six{
     box-sizing: border-box;
     border: 2px solid black;
-    flex-basis:34%;
+    flex-basis:33%;
 }
 
 .sept{
     box-sizing: border-box;
-    border: 2px solid black;
-    flex-basis:33%;
+    border: #4CAF50 2px solid;
+    flex-basis: 33%;
 }
 /*Fin Galerie Photo*/
 /*Fin Section*/
