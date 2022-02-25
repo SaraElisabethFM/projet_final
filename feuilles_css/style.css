@@ -237,8 +237,9 @@ button{
     justify-content: center;
     align-items: center; 
     flex-wrap:wrap;  
-    width:100%;
+    width:95%;
     height: 33%;
+    background-color: coral;
 }
 .photo{
     display: flex;
@@ -256,44 +257,30 @@ img{
 }
 
 .un{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:33%;
 }   
 
 .deux{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:33%;
 }
 
 .trois{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:33%;
 }
 
 .quatre{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:75%;
 }
 
 .cinq{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:33%;
 }
 
 .six{
-    box-sizing: border-box;
-    border: 2px solid black;
     flex-basis:33%;
 }
 
 .sept{
-    box-sizing: border-box;
-    border: #4CAF50 2px solid;
     flex-basis: 33%;
 }
 /*Fin Galerie Photo*/
