@@ -18,25 +18,25 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .accueil{
-    background-color: rgb(209, 243, 174);
+    background-color: #E2F5F7;
 }
 
 .presentation{
-    background-color: rgb(240, 231, 208);
+    background-color: #E2F5F7;
 }
 
 .galerie{
-    background-color: rgb(163, 155, 228);
+    background-color: #E2F5F7;
 }
 
 /*Début Header*/
 header{
-    background-color: #385458;
+    background-color: #006769;
     width: 100%;
     height: 125px;
     display: flex; 
     position: relative;
-    box-shadow: 0px 7px 3px gray;  
+    box-shadow: 0px 5px 3px gray;  
 }   
     
 .titre{
@@ -54,11 +54,11 @@ header{
 
 .titre:hover{
     box-shadow: 2px 5px 4px rgb(63, 63, 63);
-    background-color: antiquewhite;
+    background-color: #E2F5F7;
 }
 
 h1{
-    color: #4AB8C2;
+    color: #32AFB2;
 }
 
 .boutons{
@@ -101,7 +101,7 @@ section{
 }
 
 h2{
-    color: white;
+    color: #32AFB2;
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -231,7 +231,8 @@ button{
 
 /*Début Galerie Photo*/
 .dispo_photo{
-    border: 2px solid black;
+    /*border: 2px solid black;
+    background-color: coral;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -239,7 +240,7 @@ button{
     flex-wrap:wrap;  
     width:95%;
     height: 33%;
-    background-color: coral;
+   
 }
 .photo{
     display: flex;
@@ -288,7 +289,7 @@ img{
 
 /*Début Footer*/
 footer{
-    background-color: rgb(80, 218, 61);
+    background-color: #4C8F8F;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -300,18 +301,40 @@ footer{
 }
 
 .Acc{
-    background-color: deeppink;
-    /*position: absolute;
+    /*background-color: deeppink;
+    position: absolute;
     bottom: 0;*/
 }
 
 .Gal{
-    background-color: orange;
+    /*background-color: orange;*/
 }
 
 .Pres{
-    background-color: rebeccapurple;
-    /*position: absolute;
+    /*background-color: rebeccapurple;
+    position: absolute;
     bottom: 0;*/
 }
 /*Fin Footer*/
+
+
+/* Color Theme Swatches in Hex */
+.Projet-Final-animation-web_2-1-hex { color: #E2F5F7; }
+.Projet-Final-animation-web_2-2-hex { color: #ABDEE0; }
+.Projet-Final-animation-web_2-3-hex { color: #32AFB2; }
+.Projet-Final-animation-web_2-4-hex { color: #4C8F8F; }
+.Projet-Final-animation-web_2-5-hex { color: #006769; }
+
+/* Color Theme Swatches in RGBA */
+.Projet-Final-animation-web_2-1-rgba { color: rgba(226, 245, 247, 1); }
+.Projet-Final-animation-web_2-2-rgba { color: rgba(171, 222, 224, 1); }
+.Projet-Final-animation-web_2-3-rgba { color: rgba(50, 175, 178, 1); }
+.Projet-Final-animation-web_2-4-rgba { color: rgba(76, 143, 143, 1); }
+.Projet-Final-animation-web_2-5-rgba { color: rgba(0, 103, 105, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Projet-Final-animation-web_2-1-hsla { color: hsla(185, 56, 92, 1); }
+.Projet-Final-animation-web_2-2-hsla { color: hsla(182, 46, 77, 1); }
+.Projet-Final-animation-web_2-3-hsla { color: hsla(181, 56, 44, 1); }
+.Projet-Final-animation-web_2-4-hsla { color: hsla(180, 30, 42, 1); }
+.Projet-Final-animation-web_2-5-hsla { color: hsla(181, 100, 20, 1); }
