@@ -130,15 +130,15 @@ h2{
 }
   
 .element{
-    width:40vw;
-    height:40vw;
-    background-color:pink;
+    width:35vw;
+    height:35vw;
+    background-color: #32AFB2;
     border-radius:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 50px;
+    font-size: xx-large;
   }
 
   .animation{
@@ -148,33 +148,29 @@ h2{
   @keyframes betty{
     0%{
       transform: scale(0);
-      background-color: yellow;
     }
-    
-    20%{
-      background-color: orange;
-      border-radius:0%;
+
+    15%{
+        background-color: #3B72B3;
     }
-    
-    40%{
-      background-color: blue;
+
+    30%{
+        border-radius:0%;
+        background-color: #B34D44;
     }
     
     50%{
-    transform: scale(2.5);
-    }
-
-    60%{
-      background-color: green;
+        transform: scale(3);
+        background-color: #32AFB2;
     }
     
     70%{
-        
+        border-radius:0%;
+        background-color: #B37E20;
     }
 
-    80%{
-      background-color: gray;
-      border-radius:0%;
+    85%{
+        background-color: #29B367;
     }
     
     100%{
@@ -242,6 +238,8 @@ button{
     flex-wrap:wrap;  
     width:95%;
     height: 33%;
+    margin-bottom: 30px;
+
    
 }
 .photo{
@@ -251,6 +249,7 @@ button{
     box-sizing: border-box;
     border: 3px solid #32AFB2;
     margin: 1px;
+    background-color: blue;
 }
 
 img{
