@@ -249,7 +249,6 @@ button{
     box-sizing: border-box;
     border: 3px solid #32AFB2;
     margin: 1px;
-    background-color: blue;
 }
 
 img{
@@ -326,16 +325,9 @@ footer{
 .Projet-Final-animation-web_2-4-hex { color: #4C8F8F; }
 .Projet-Final-animation-web_2-5-hex { color: #006769; }
 
-/* Color Theme Swatches in RGBA */
-.Projet-Final-animation-web_2-1-rgba { color: rgba(226, 245, 247, 1); }
-.Projet-Final-animation-web_2-2-rgba { color: rgba(171, 222, 224, 1); }
-.Projet-Final-animation-web_2-3-rgba { color: rgba(50, 175, 178, 1); }
-.Projet-Final-animation-web_2-4-rgba { color: rgba(76, 143, 143, 1); }
-.Projet-Final-animation-web_2-5-rgba { color: rgba(0, 103, 105, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Projet-Final-animation-web_2-1-hsla { color: hsla(185, 56, 92, 1); }
-.Projet-Final-animation-web_2-2-hsla { color: hsla(182, 46, 77, 1); }
-.Projet-Final-animation-web_2-3-hsla { color: hsla(181, 56, 44, 1); }
-.Projet-Final-animation-web_2-4-hsla { color: hsla(180, 30, 42, 1); }
-.Projet-Final-animation-web_2-5-hsla { color: hsla(181, 100, 20, 1); }
+/* Color Theme Swatches in Hex */
+.Couleurs-complémentaires-1-hex { color: #3B72B3; }
+.Couleurs-complémentaires-2-hex { color: #B34D44; }
+.Couleurs-complémentaires-3-hex { color: #32B0B3; }
+.Couleurs-complémentaires-4-hex { color: #B37E20; }
+.Couleurs-complémentaires-5-hex { color: #29B367; }
